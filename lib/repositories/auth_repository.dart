@@ -1,6 +1,6 @@
 import 'package:meta/meta.dart';
 
-class UserRepository {
+class AuthRepository {
   Future<String> authenticate({
     @required String username,
     @required String password,
